@@ -1,28 +1,50 @@
-.App {
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.8;
+}
+
+#home-section {
+  background: url("/images/INR_Day.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+#home-section .home-inner {
+  padding-top: 120px;
+}
+.cspCNR {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
   color: white;
-}
+  text-shadow: 0 5px 12px rgba(0, 0, 0, 0.6);
+  padding-bottom: 36px;
 
-.App-title {
-  font-size: 1.5em;
+  font-size: 2.4em;
+  line-height: 1.3em;
 }
-
-.App-intro {
-  font-size: large;
+@media (max-width: 768px) {
+  .cspCNR {
+    font-size: 2.4em;
+    line-height: 1em;
+  }
+  .cspCNR dt {
+    display: none;
+  }
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+@media (min-width: 768px) {
+  .cspCNR mb {
+    display: none;
+  }
+}
+@media (max-width: 374px) {
+  .cspCNR {
+    font-size: 2em;
+    line-height: 1.3em;
+  }
+}
+.itjIoV {
+  border: 0;
+  border-bottom: 1px solid #d2e6e6;
+  max-width: 1024px;
 }
