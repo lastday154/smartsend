@@ -27,12 +27,10 @@ class Footer extends Component {
                     <div>About</div>
                     <ul>
                       <li>
-                        <a href="https://www.dbs.com.sg/smartsend/about">
-                          About AloSend
-                        </a>
+                        <a href="/#/about">About AloSend</a>
                       </li>
                       <li>
-                        <a href="./faq.html" target="_blank">
+                        <a href="/#/faq" target="_blank">
                           Frequently Asked Questions
                         </a>
                       </li>
@@ -77,9 +75,7 @@ class Footer extends Component {
                     <div>Useful Links</div>
                     <ul>
                       <li>
-                        <a href="https://www.dbs.com.sg/smartsend/about">
-                          About AloSend
-                        </a>
+                        <a href="/#/about">About AloSend</a>
                       </li>
                       <li>
                         <a href="https://www.dbs.com.sg/smartsend/news">News</a>
@@ -90,7 +86,7 @@ class Footer extends Component {
                         </a>
                       </li>
                       <li>
-                        <a href="./faq.html" target="_blank">
+                        <a href="/#/faq" target="_blank">
                           Frequently Asked Questions
                         </a>
                       </li>
