@@ -42,8 +42,31 @@ class Footer extends Component {
                     <div>Contact</div>
                     <ul>
                       <li>
-                        <a href="tel:0984676382">
+                        <a href="tel:+84984676382">
                           Talk to a AloSend Expert 0984676382
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.facebook.com/alosend"
+                          target="_blank"
+                        >
+                          <i
+                            className="fab fa-facebook"
+                            style={{ fontSize: "48px", color: "blue" }}
+                          />
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://api.whatsapp.com/send?phone=+6584958062&text=Hi%20Alosend.%20I%20know%20about%20you%20from%20the%20website."
+                          target="_blank"
+                        >
+                          <i
+                            className="fab fa-whatsapp"
+                            style={{ fontSize: "48px", color: "blue" }}
+                          />
+                          +65 84958062
                         </a>
                       </li>
                     </ul>
@@ -55,7 +78,7 @@ class Footer extends Component {
                     <ul>
                       <li>
                         <a href="https://www.dbs.com.sg/smartsend/about">
-                          About AoSend
+                          About AloSend
                         </a>
                       </li>
                       <li>
@@ -72,7 +95,29 @@ class Footer extends Component {
                         </a>
                       </li>
                       <li>
-                        <a href="tel:0984676382">Contact</a>
+                        <a href="tel:+84984676382">Contact</a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.facebook.com/alosend"
+                          target="_blank"
+                        >
+                          <i
+                            className="fab fa-facebook"
+                            style={{ fontSize: "48px", color: "blue" }}
+                          />
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://api.whatsapp.com/send?phone=+6584958062&text=Hi%20Alosend.%20I%20know%20about%20you%20from%20the%20website."
+                          target="_blank"
+                        >
+                          <i
+                            className="fab fa-whatsapp"
+                            style={{ fontSize: "48px", color: "blue" }}
+                          />
+                        </a>
                       </li>
                     </ul>
                   </div>
