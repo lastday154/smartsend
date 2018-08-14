@@ -3,6 +3,7 @@ import Process from "./Process";
 import Why from "./Why";
 import Country from "./Country";
 import Footer from "./Footer";
+import Calculator from "./Calculator";
 
 class Home extends Component {
   render() {
@@ -22,6 +23,7 @@ class Home extends Component {
                   </div>
                 </div>
               </div>
+              <Calculator />
             </div>
           </div>
         </header>
