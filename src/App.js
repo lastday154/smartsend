@@ -4,6 +4,7 @@ import { Route, NavLink, HashRouter } from "react-router-dom";
 import About from "./About";
 import Home from "./Home";
 import Faq from "./Faq";
+import Footer from "./Footer";
 
 class App extends Component {
   render() {
@@ -50,6 +51,8 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/faq" component={Faq} />
+          <hr className="itjIoV" />
+          <Footer />
         </div>
       </HashRouter>
     );

@@ -179,6 +179,20 @@ class App extends React.Component {
                 </p>
               </div>
             </div>
+            <a href="tel:+84984676382">
+              <i class="fas fa-phone" style={{ fontSize: "48px" }}>
+                Call us 0984676382
+              </i>
+            </a>
+            <br />
+            <a href="https://www.facebook.com/alosend" target="_blank">
+              <i
+                className="fab fa-facebook-messenger"
+                style={{ fontSize: "48px", marginRight: "20px" }}
+              >
+                Message us
+              </i>
+            </a>
           </div>
         </div>
       </div>

@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Process from "./Process";
 import Why from "./Why";
 import Country from "./Country";
-import Footer from "./Footer";
 import Calculator from "./Calculator";
 
 class Home extends Component {
@@ -32,8 +31,6 @@ class Home extends Component {
         <Why />
         <hr className="itjIoV" />
         <Country />
-        <hr className="itjIoV" />
-        <Footer />
       </div>
     );
   }
